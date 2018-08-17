@@ -1,5 +1,7 @@
 # Spring Boot Blog API
 
+Follow the tutorial and add the integration test with debug enabled. https://medium.com/@salisuwy/building-a-spring-boot-rest-api-a-php-developers-view-part-i-6add2e794646
+
 ## Start a mysql db
 
 Start a db with docker using command:
