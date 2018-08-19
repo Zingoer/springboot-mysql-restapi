@@ -7,7 +7,7 @@ Follow the tutorial and add the integration test with debug enabled. https://med
 Start a db with docker using command:
 ```
 docker run --rm --name postgresdb -e POSTGRES_PASSWORD=password -d postgres
-docker run --rm --name mysqldb -e MYSQL_ROOT_PASSWORD=password -d mysql
+docker run --rm --name mysqldb -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql
 ```
 
 Connect the db with mysql cli
